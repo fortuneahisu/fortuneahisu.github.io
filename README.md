@@ -1,0 +1,1 @@
+# fortuneahisu.github.io
