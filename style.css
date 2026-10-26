@@ -18,7 +18,7 @@ p {
     border-width: 0px 0px 0px 2px;
     border-color: black;
     margin: 2rem;
-    text-align: justify;
+    text-align: left;
 }
 
 a {
@@ -116,15 +116,17 @@ a {
 
 .cadimages img {
     border: 1px solid black;
-    
+
 }
-.cadimage{
+
+.cadimage {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
+
 .aboutme {
     padding: 150px 10% 37.5px 10%;
 }
