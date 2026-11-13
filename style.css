@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 2;
-    background-color: rgba(240, 240, 240, 0.25);
+    background-color: rgba(20, 20, 20);
     justify-content: space-between;
 }
 
@@ -32,9 +32,10 @@ a {
     font-size: 27.5px;
     z-index: 1000;
     text-align: center;
-    background-color: rgba(230, 230, 230, 0.75);
+    background-color: rgba(230, 230, 230, 0.375);
     border-radius: 0px;
     border: 0px solid black;
+    border-bottom: 1px solid white;
     position: fixed;
     width: 100%;
     top: -65px;
@@ -47,23 +48,23 @@ a {
     top: 0px;
 }
 
-.aboutwork {
-    border-color: rgba(50, 50, 50, 1);
+#aboutwork {
+    border-color: rgb(50, 50, 50);
     border-top: 1px dashed;
-    padding: 150px 10% 37.5px 10%;
+    padding: 150px 5% 37.5px 5%;
 }
 
 .navigate {
     position: fixed;
     right: 3.75%;
     top: 5%;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
     opacity: 0.75;
     text-align: center;
     padding: 5px;
     border-radius: 22.5px;
-    border: 1px solid rgba(170, 170, 170, 1);
-    background-color: rgba(190, 190, 190, 0.25);
+    border: 1px solid rgb(85, 85, 85);
+    background-color: rgb(65, 65, 65);
 }
 
 .navigateitems {
@@ -84,12 +85,12 @@ a {
 }
 
 .navigateitems li {
-    background: rgba(230, 230, 230, 1);
+    background: rgb(230, 230, 230);
     border-radius: 15px;
     color: rgba(0, 0, 0, 1);
     transition: 0.25s;
     text-align: left;
-    border: 1px solid rgba(200, 200, 200, 0.75);
+    border: 1px solid rgb(200, 200, 200);
     padding: 3.75px;
     margin: 5px 0px 0px 0px;
     text-wrap-mode: nowrap;
@@ -97,11 +98,11 @@ a {
 
 .navigateitems li:hover {
     transform: translateY(-2.5px);
-    background: rgba(245, 245, 245, 0.875);
+    background: rgb(245, 245, 245);
 }
 
-.workbreadth {
-    padding: 150px 10% 37.5px 10%;
+#workbreadth {
+    padding: 150px 5% 37.5px 5%;
 }
 
 .skillpoint {
@@ -110,23 +111,45 @@ a {
 
 .cadimages {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-}
-
-.cadimages img {
-    border: 1px solid black;
-
-}
-
-.cadimage {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     gap: 1rem;
 }
 
-.aboutme {
-    padding: 150px 10% 37.5px 10%;
+.cadimages img {
+    border: 1px solid rgb(1, 1, 1);
+    border-radius: 1.5rem;
+    float: left;
+    margin: 1rem;
+    width: 50%;
+}
+
+.cadproject {
+    border-radius: 2.5rem;
+    border: 1px solid rgb(1, 1, 1);
+    gap: 1rem;
+}
+
+
+.caddescribe p {
+    margin: 1rem;
+}
+
+#aboutme {
+    padding: 150px 5% 37.5px 5%;
+}
+
+footer {
+    background-color: black;
+    padding: 3rem;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+footer div {
+    margin: 2.5rem;
+}
+
+footer h3 {
+    margin: 0px;
 }
