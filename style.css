@@ -86,12 +86,12 @@ a {
 }
 
 .navigateitems li {
-    background: rgb(230, 230, 230);
+    background: rgb(15, 15, 15);
     border-radius: 15px;
     color: white;
     transition: 0.25s;
     text-align: left;
-    border: 1px solid rgb(200, 200, 200);
+    border: 1px solid rgb(55, 55, 55);
     padding: 3.75px;
     margin: 5px 0px 0px 0px;
     text-wrap-mode: nowrap;
@@ -99,7 +99,7 @@ a {
 
 .navigateitems li:hover {
     transform: translateY(-2.5px);
-    background: rgb(245, 245, 245);
+    background: rgb(30, 30, 30);
 }
 
 #workbreadth {
@@ -118,7 +118,7 @@ a {
 }
 
 .cadimages img {
-    border: 1px solid rgb(1, 1, 1);
+    border: 1px solid rgb(254, 254, 254);
     border-radius: 1.5rem;
     float: left;
     margin: 1rem;
@@ -127,7 +127,7 @@ a {
 
 .cadproject {
     border-radius: 2.5rem;
-    border: 1px solid rgb(1, 1, 1);
+    border: 1px solid rgb(254, 254, 254);
     gap: 1rem;
 }
 
