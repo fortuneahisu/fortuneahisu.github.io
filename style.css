@@ -69,6 +69,7 @@ a {
 }
 
 .navigateitems {
+    list-style: none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -86,15 +87,23 @@ a {
 }
 
 .navigateitems li {
+    list-style: none;
     background: rgb(15, 15, 15);
     border-radius: 15px;
     color: white;
     transition: 0.25s;
     text-align: left;
     border: 1px solid rgb(55, 55, 55);
-    padding: 3.75px;
+    padding: 0px;
     margin: 5px 0px 0px 0px;
     text-wrap-mode: nowrap;
+}
+
+.navigateitems a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 3.75px;
 }
 
 .navigateitems li:hover {
