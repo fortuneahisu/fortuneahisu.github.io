@@ -45,7 +45,8 @@ a {
     transition: 0.3s ease-in-out;
 }
 
-#header:hover {
+#header:hover,
+#header:focus-visible {
     top: 0px;
 }
 
@@ -82,6 +83,11 @@ a {
 }
 
 .navigate:hover .navigateitems {
+    max-height: 400px;
+    width: 200px;
+}
+
+.navigate:focus-within .navigateitems {
     max-height: 400px;
     width: 200px;
 }
